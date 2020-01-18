@@ -1,0 +1,66 @@
+.error {color: #FF0000;}
+/*a:link{color:#ff0000;}
+ a:visited{color:green;}
+ a:link {background-color:#B2FF99;}
+ a:visited {background-color:#FFFF85;}
+ a:hover {background-color:#FF704D;}
+ a:active {background-color:#FF704D;} 
+*/
+h1.title{color:orange;
+background-color:yellow;
+text-align: center;}
+
+#giftIdeaContent,.zaneSiteScript
+{
+font-family:david,nyala,"segoe print", "Times New Roman", Times, serif;
+
+}
+
+h1.logged_in_heading
+{
+color:blue;
+background-color:green;
+text-align: center;
+
+}
+span.menu{
+background-color:gray;
+color:yellow;
+text-transform:capitalize;
+padding:20px;
+
+}
+#menu1 , #Hmenu{
+color:yellow;
+
+}
+ a:visited span.menu {
+background-color:gray;
+color:green;
+}
+
+.imageMenu
+
+{
+margin-bottom:-10px
+
+
+
+}
+
+
+.radio-toolbar input[type="radio"] {
+    display:none;
+}
+
+.radio-toolbar label {
+    display:inline-block;
+    background-color:red;
+    padding:4px 11px;
+    font-family:Arial;
+    font-size:16px;
+}
+
+.radio-toolbar input[type="radio"]:checked + label {
+    background-color:green;
+}

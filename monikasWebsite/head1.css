@@ -1,0 +1,703 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 12, 2014, 2:13:38 AM
+    Author     : zac
+*/
+/* all pages */
+a, abbr, acronym, address, applet, b, big, blockquote, body, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, u, ul, var {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+vertical-align: baseline;
+background: 0 0;
+}
+.color_18{
+ color: rgb(146, 221, 15);
+
+}
+.font_2 {
+font: normal normal normal 44px/1.1em 'open sans', sans-serif;
+color: rgb(137, 188, 35);
+}
+.font_3 {
+font: normal normal bold 70px/1.1em 'open sans', sans-serif;
+color: rgb(137, 188, 35);
+}
+.font_5 {
+font: normal normal normal 24px/1.2em 'open sans', sans-serif;
+color: rgb(73, 73, 73);
+}
+.font_6 {
+font: normal normal normal 22px/1.1em 'open sans', sans-serif;
+color: rgb(73, 73, 73);
+}
+a{
+/*color:blue;*/
+text-decoration: none;
+}
+a#home1 {
+/*color:yellow;
+text-decoration: none;*/
+}
+
+#SiteStructure{
+   /* hight: 300px;*/
+   
+ min-height: 100%; 
+position: relative;
+margin: 0 auto;
+width: 1000px;
+    
+min-height: 877px;
+    
+/*visibility: visible;
+//width: 980px;
+//min-height: 51px;
+//top: 826px;
+//position: absolute;
+//bottom: auto;
+     width: 980px; */
+}
+/* header top sections */
+#head{
+    
+    
+   /* background-color: gray;*/
+     height: 150px;
+    background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( rgba(42,44,51,.5), rgba(42,44,51,1)); /* Standard syntax (must be last) */
+    
+visibility: visible;
+/*width: 100%;*/
+ width:980px; 
+
+width: 100%;
+/* min-height: 154px; */
+position: absolute;
+z-index: auto;
+    
+}
+#headWidthBg{
+    
+    position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+    position: absolute;
+
+    width: 1349px;
+height: 154px;
+
+    left: -185px;
+    background-image: url(images/bevel_300.png);
+
+   /* background-repeat: repeat-x;*/
+    
+    
+}
+.wysiwyg_viewer_skins_screenwidthcontainer_BevelScreenhc2-screenWidthBackground
+{
+    margin-left: 184px;
+margin-right: 184px;
+   
+    background-image: url(images/bevel_300.png);
+
+    background-repeat: repeat-x;  
+    
+}
+.wysiwyg_viewer_skins_screenwidthcontainer_BevelScreenhc2-c-bg{
+    
+    position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+    box-shadow: rgba(255, 255, 255, 0.6) 0px 1px 1px 0px inset, rgba(0, 0, 0, 0.6) 0px -1px 1px 0px inset, rgba(0, 0, 0, 0.6) 0px 0px 5px 0px;
+
+    background-color: rgb(0, 0, 0);
+
+    border-top: 0px solid rgb(0, 0, 0);
+
+    border-bottom: 0px solid rgb(0, 0, 0);
+
+    background-image: url(images/bevel_300.png);
+
+    background-repeat: repeat-x;
+}
+
+.wysiwyg_viewer_skins_screenwidthcontainer_BevelScreenhc2-centeredContent {
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+}
+#Title{
+    /* margin-left:4%; */
+    position: absolute;
+    position: absolute;  
+    left: 0px;  right: 0px;  
+    top: 0px;  bottom: 0px;
+}
+#NameAndJobTitle{
+    /* margin-left:10%; */
+    
+    width: 700px;
+    height: 59px;
+    position: absolute;
+    line-height: 1.1em;
+    left: 40px;
+     
+    /* top: 31px; */ 
+}
+#H1MyName{
+    font-size: 51px;
+    margin:     0px;
+    
+    
+    
+}
+#MyName{
+    color: rgb(146, 221, 15);
+    vertical-align: baseline;
+    font-family: Open Sans;
+    font-size: 51px;
+    
+visibility: visible;
+
+    /*left: 40px;*/
+margin: 0px;
+
+     top: 31px; 
+
+    width: 350px;
+min-height: 59px;
+position: absolute;
+
+    z-index: auto;
+    
+    top: 31px;
+}
+#LastNme{
+    color:white;
+    
+}
+#JobTitleDiv{
+    visibility: visible;
+ margin: 0px;
+     
+    left: 390px;
+
+     top: 60px; 
+width: 230px;
+
+    min-height: 25px;
+
+    position: absolute;
+z-index: auto;
+    vertical-align: baseline;
+}
+#JobTitle{
+    color:white;
+    font-family: Open Sans;
+    font-size: 15px;
+    visibility: visible;
+
+    /* left: 330px; */
+
+    /* top: 60px; */
+
+    width: 230px;
+
+    min-height: 20px;
+
+    position: absolute;
+
+    z-index: auto;
+    
+}
+.font_7 {
+font: normal normal normal 15px/1.3em 'open sans', sans-serif;
+color: rgb(73, 73, 73);
+}
+p.font_7{
+    height:20px;
+    margin: 0px;
+}
+.bgMenu{
+     background-image: url('./images/shiny2button_bg.png');   
+     background-position: 0px 50px;
+	
+     color: black;
+}
+
+#MenuBarDiv{
+    background-color: white;
+    width: 80%;
+    /*margin-left:10%;
+   // margin-right:10%;*/
+      min-width: 600px;
+    /*max-width:800px;*/
+   /* position: absolute;*/
+    
+    visibility: visible;
+
+   /* use with absolute
+
+   top: 128px;*/
+width: 980px;
+min-height: 50px;
+position: relative;
+left:100px;
+
+    border-radius: 5px;
+    background-image: url(./images/shiny2button_bg.png);
+    /* z-index: 4; */
+    /* background-position-y: 50px; */
+    /* background: url('./images/shiny2button_bg.png') repeat-x scroll center top #FFF; */      
+    background-color: #FFF;      
+    background-image: url('./images/shiny2button_bg.png');      
+    /* background-repeat: repeat-x; */      background-attachment: scroll;      background-position: center top;      
+    background-clip: border-box;      background-origin: padding-box;      
+    background-size: auto auto;
+    background-position:0px 50px;
+	background-color:green;
+	
+	/*gradent*/
+	
+    /*height: 200px;*/
+    background: -webkit-linear-gradient(yellow, orange); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(yellow, green); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(yellow, green); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(yellow, orange); /* Standard syntax (must be last) */
+}
+#MenuBar{
+    
+    background-image: url(./images/shiny2button_bg.png);
+    
+    background: url('./images/shiny2button_bg.png') repeat-x scroll center top #FFF;
+    background-color: #FFF;
+    background-image: url('./images/shiny2button_bg.png');
+    /* background-repeat: repeat-x; */
+    /* background-attachment: scroll; */
+    /* background-position: center top; */
+    /* background-clip: border-box; */
+    /* background-origin: padding-box; */
+    /* background-size: auto auto; */
+    /* background-position-x: 10px; */
+    margin-left: 20px;
+	/*z-index:10;*/
+	z-index:3;
+}
+
+#menuContainer
+{
+    background-color: white;
+    border-radius: 25px;
+    /* display: inline-table; */
+    background: url(./images/shiny2button_bg.png)   repeat-x scroll center bottom transparent;
+  
+    
+    top: 128px;
+    height: 50px;
+    z-index: 3;
+    margin-left: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+    background-position:0px 50px;
+	
+}
+
+/*this lets the menu divs be displayed on same line 
+this is replaceing with new name but hopefully not 
+functionality of the below class 
+.wysiwyg_viewer_skins_dropmenubutton_ShinyMenuIIButtonNSkinddm2
+ */
+.MainMenuElements
+{
+display: inline-block;
+    cursor: pointer;
+    border-left: 3px solid #F8F8F8;
+    background: none repeat scroll 0% 0% #FFF;
+    transition: background-color 0.4s ease 0s;
+	margin-right: 30px;
+	 z-index: 4;
+}
+
+
+
+
+
+#home2:hover ,#cv2:hover,.cv2:hover,#contact2:hover ,#Project.hover,#blog2:hover,#aboutZane2:hover
+,#guestFeatures2:hover,#partyInfo2:hover,#directions2:hover
+{
+color: rgb(146, 221, 15);
+cursor: pointer;
+border-left: 1px solid rgb(248, 248, 248);
+/*background: rgb(255, 255, 255);*/
+transition: background-color 0.4s ease 0s;
+-webkit-transition: background-color 0.4s ease 0s;
+    
+    
+}
+/*sub menu*/
+.subMenuWrapper
+{
+height:70px;
+width:75px;
+position: absolute;
+/*visibility: hidden;
+//background-image: url(http://localhost/home/images/shiny2button_bg.png);
+//background-color: rgb(255, 255, 255);*/
+background-position:0px 70px;
+/*had problem with the menu disappearing this was because
+the element object that it went over had a higher z-index
+value*/
+z-index:3;
+/*opacity	:0;*/
+}
+.subMenuWrapper:hover
+{
+height:70px;
+width:80px;
+position: absolute;
+/*visibility: visible;*/
+border-radius:10px;
+/*background-image: url(http://localhost/home/images/shiny2button_bg.png);
+//background-color: rgb(255, 255, 255);
+//box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px 0px;*/
+
+}
+.DropMenu ,.DropMenu2,.DropMenu3,.DropMenu4
+{
+position: absolute;
+visibility: hidden;
+border-radius:10px;
+/*border-top-left-radius: 10px;
+//border-top-right-radius: 10px;
+//border-bottom-right-radius: 10px;
+//border-bottom-left-radius: 10px;*/
+height: 30px;
+/*position: absolute;*/
+box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px 0px;
+margin-top: 7px;
+background-image: url(http://localhost/home/images/shiny2button_bg.png);
+/*background-color: rgb(255, 255, 255);*/
+background-color: orange;
+/*background-position-y: 30px;*/
+
+
+
+}
+.DropMenu:hover,.DropMenu2:hover,.DropMenu3:hover,.DropMenu4:hover
+{
+	background-color: rgb(255, 255, 255);
+	
+}
+
+.project{
+top:-10px;
+position: relative;
+}
+
+/*
+all three are the same class name changing name to be better understood
+may need to add functionality to the above class MainMenuElements
+
+.wysiwyg_viewer_skins_dropmenubutton_ShinyMenuIIButtonNSkinddm2 {
+display: inline-block;
+cursor: pointer;
+border-left: 1px solid rgb(248, 248, 248);
+background: rgb(255, 255, 255);
+transition: background-color 0.4s ease 0s;
+-webkit-transition: background-color 0.4s ease 0s;
+-webkit-transition-property: background-color;
+-webkit-transition-duration: 0.4s;
+-webkit-transition-timing-function: ease;
+-webkit-transition-delay: 0s;
+}
+
+.wysiwyg_viewer_skins_dropmenubutton_ShinyMenuIIButtonNSkinddm2[state="selected"] {
+    transition: background-color 0.4s ease 0s;
+    background: none repeat scroll 0% 0% #FFF;
+   color: rgb(91, 125, 23);
+}
+
+.wysiwyg_viewer_skins_dropmenubutton_ShinyMenuIIButtonNSkinddm2 {
+    display: inline-block;
+    cursor: pointer;
+    border-left: 3px solid #F8F8F8;
+    background: none repeat scroll 0% 0% #FFF;
+    transition: background-color 0.4s ease 0s;
+}
+*/
+#Cntnr3{
+    
+    visibility: visible;
+left: 100px;
+top: -5px;
+min-width: 975px;
+min-height: 5px;
+width:975px;
+position: relative;
+z-index:-2;
+
+}
+a.wysiwyg_viewer_skins_button_ButtonShadowRightb3-link {
+
+color: white;
+font-size: 21px;
+}
+.wysiwyg_viewer_skins_area_LiftedShadowAreac1-c-shd{
+    position: absolute;
+bottom: -26px;
+width: 165px;
+height: 26px;
+
+    background: url(./images/liftedshadow_medium.png) no-repeat;
+}
+.wysiwyg_viewer_skins_area_LiftedShadowAreac1-c-left{
+    left: -20px;
+background-position: 0px 0px;
+}
+.wysiwyg_viewer_skins_area_LiftedShadowAreac1-c-right{
+   right: -20px;
+background-position: 100% 0px;
+}
+
+
+.wysiwyg_viewer_skins_area_LiftedShadowAreac1-bg{
+    
+    position: absolute;
+
+    top: 0px;
+bottom: 0px;
+
+    left: 5px;
+right: 0px;
+background-color: rgb(255, 255, 255);
+border-radius: 5px;
+border: 1px solid rgb(0, 0, 0);
+border-image-source: initial;
+border-image-slice: initial;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: initial;
+}
+
+.wysiwyg_viewer_skins_area_LiftedShadowAreac1-inlineContent{
+    
+    position: absolute;
+
+    top: 10px;
+bottom: 0px;
+
+    left: 100px;
+right: 0px;
+}
+/* body of page general */
+#PageContainer{
+visibility: visible;
+width: 980px;
+min-height: 599px;
+top: 279px;
+position: absolute;
+}
+#PAGES_CONTAINER
+{
+visibility: visible;
+width: 980px;
+min-height: 599px;
+top: 289px;
+/*position: absolute;*/
+
+}
+
+#Cntnr1{
+
+border:1px solid rgba(154, 154, 154, 0.458824);
+
+}
+.wysiwyg_viewer_skins_line_VerticalSolidLinevl1 {
+border-left: 1px solid rgba(0, 0, 0, 0.490196);
+margin-left: -0.5px;
+width: 0px;
+}
+
+/* home main content */
+.wysiwyg_viewer_skins_button_ButtonShadowRightb3-c-shd {
+background: url(./images/liftedshadow_medium.png) 100% 0px no-repeat;
+position: absolute;
+bottom: -26px;
+right: -20px;
+width: 165px;
+height: 26px;
+}
+/*cover letter link*/
+.Link1
+{
+font-size: 18px;
+
+}
+
+.Link1:hover
+{
+
+border-left: 1px solid rgb(248, 248, 248);
+
+color: rgb(137, 188, 35);
+/* color: green; */
+-webkit-transition-property:color;
+-webkit-transition-duration: 2s;
+
+}
+
+
+#StBttn0{
+background: rgb(146, 221, 15);
+text-align: center;
+}
+
+/* cv main content */
+#CvHeader{
+/*top:20px;*/
+width:980px;
+height:220px;
+border:1px solid rgba(154, 154, 154, 0.458824);
+}
+#test{
+left: 29px;
+top: 47px;
+position:relative;
+
+}
+#CvMyName{
+visibility: visible;
+left: 29px;
+top: 47px;
+width: 610px;
+/*min-height: 45px;
+//position: absolute;*/
+}
+#CvMyInfo{
+visibility: visible;
+left: 30px;
+top: 110px;
+width: 555px;
+/*min-height: 70px;
+//position: absolute;*/
+}
+#CvMyAddress{}
+#CvMyEmail{}
+#CvMyPhone{}
+#CvMyPic{
+left: 705px;
+top: 0px;
+width: 230px;
+min-height: 220px;
+position: absolute;
+/*border: 1px solid rgba(154, 154, 154, 0.298039);
+//background-color: rgba(154, 154, 154, 0.298039);
+//border: 1px solid rgba(154, 154, 154, 0.298039);*/
+border-image-source: initial;
+border-image-slice: initial;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: initial;
+/*overflow: hidden;
+//: 100%;*/
+}
+#CvSitePagesWrapper
+{
+visibility: visible;
+width: 980px;
+top: 20px;
+/*position: absolute;*/
+padding-top:25px;
+width:100%;
+
+}
+#CvSITE_PAGES
+{
+visibility: visible;
+left: 0px;
+top: 220px;
+width: 610px;
+min-height: 70px;
+/*position: absolute;
+//border: 1px solid rgba(154, 154, 154, 0.298039);*/
+padding:10px;
+width:70%;
+float:left;
+}
+#CvSITE_PAGES_RIGHT{
+top: 220px;
+width:27%;
+float:right;
+}
+
+.CvContentTitle
+{
+text-align:center;
+margin-bottom:50px;
+margin-top:25px;
+text-decoration: underline;
+font-size: 22px;
+color: rgb(73, 73, 73);
+}
+.CvContentTitleSkills
+{
+text-align:center;
+/*margin-bottom:50px;*/
+margin-top:25px;
+/*text-decoration: underline;*/
+font-size: 22px;
+color: rgb(146, 221, 15);
+
+}
+
+.JobBlock
+{
+
+height: auto;
+width: 550px;
+margin-left: 30px;
+margin-bottom: 30px;
+width:90%;
+	
+}
+
+.JobCompanyInfo
+{
+margin-bottom:20px;
+ /*color: rgb(146, 221, 15);*/
+}
+.JobTitle
+{
+ color: rgb(146, 221, 15);
+ font-size:30px;
+}
+.JobDescreption{
+margin-left:50px;
+margin-top:25px
+}
+
+/* footer main content */
+#SiteFooter{
+visibility: visible;
+width: 980px;
+min-height: 51px;
+top: 826px;
+position: absolute;
+bottom: auto;
+padding:20px;
+}
